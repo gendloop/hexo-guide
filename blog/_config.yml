@@ -5,11 +5,12 @@ keywords: null
 author: gendloop
 language: zh
 timezone: Asia/Shanghai
-url: http://example.com
+url: https://gendloop.github.io/hexo-guide
+root: /hexo-guide/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
-  trailing_index: true
+  trailing_index: false
   trailing_html: true
 source_dir: source
 public_dir: public
