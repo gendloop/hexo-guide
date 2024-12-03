@@ -32,8 +32,10 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
+        working-directory: ${{ github.workspace }}/blog
         run: npm install
       - name: Build
+        working-directory: ${{ github.workspace }}/blog
         run: npm run build
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
