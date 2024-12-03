@@ -6,4 +6,4 @@ tags:
 
 ## 引用图片
 
-![gendloop](../images/favicon.png)
+![gendloop](images/favicon.png)
